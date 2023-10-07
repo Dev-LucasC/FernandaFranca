@@ -1,12 +1,9 @@
 .container {
   display: flex;
-
   justify-content: center;
   width: 100vw;
   height: 90vh;
   background-color: #000000;
-
-
 }
 
 .container_sobremim {
@@ -45,7 +42,6 @@
 .container-img {
   display: flex;
   align-items: center;
-  margin-top: 220px;
 }
 
 .container-img img {
@@ -53,16 +49,37 @@
 }
 
 .btn-cta {
-  text-decoration: inherit;
-  padding: 10px 20px;
-  border-radius: 25px;
-  color: #ffffff;
-  background-color: #000000;
-  color: #fff;
-  text-align: center;
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    text-decoration: inherit;
+    padding:10px 20px; 
+    border-radius :25px; 
+    color :#ffffff; 
+    background-color :#000000; 
+    color :#fff; 
+    text-align :center; 
+    font-family :Inter; 
+    font-size :15px; 
+    font-style :normal; 
+    font-weight :700; 
+    line-height :normal; 
+}
+
+@media (max-width:600px) {
+  
+  .container {
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container_sobremim {
+    margin: inherit;
+    width: auto;
+    height: auto;
+  }
+
+  .btn-cta {
+    margin-bottom: 2rem;
+  }
+   
+
 }

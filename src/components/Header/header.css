@@ -20,10 +20,16 @@
     display: none;
 }
 
+
+.header-menu {
+
+}
+
 .hamburger {
     display: none;
     font-size: 30px;
     cursor: pointer;
+    
 }
 
 .menu a{
@@ -49,9 +55,28 @@
    }
    
    .menu {
-       transform : translateX(-100%);
+       flex-direction : column; 
+       gap : 20px; 
+       position : fixed; 
+       top : 0; 
+       left : 0; 
+       width : 60%; 
+       height : 100vh; 
+       background-color : #000000; 
+       padding : 20px 20px; 
+       box-sizing : border-box; 
+       transform : translateX(-100%); 
        pointer-events : none; 
    }
+
+   .menu a {
+        color : #ffffff; 
+   }
+
+   .menu img {
+        display:block; 
+        width :200px; 
+      }
 }
 
 @media (min-width: 601px) {
@@ -59,4 +84,9 @@
        transform : translateX(0%);
        pointer-events : auto; 
    }
+}
+
+.header-container.menu-visible .menu {
+   transform : translateX(0%);
+   pointer-events : auto; 
 }
