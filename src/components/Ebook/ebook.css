@@ -1,10 +1,10 @@
-.container_ebook {
+.teste_ebook {
   display: flex;
-  width: 100%;
-  height: 40vh;
+  width: 100vw;
+  height: 70vh;
   justify-content: space-around;
   align-items: center;
-  padding: 10%;
+  padding: 5%;
 }
 
 .ebook {
@@ -17,7 +17,7 @@
 
 .ebook_text {
   width: 40%;
-  height: 100%;
+  height: 60%;
   margin: 0px 10%;
   display: flex;
   flex-direction: column;
@@ -65,10 +65,12 @@
 }
 
 @media (max-width: 768px) {
-  .container_ebook {
+  .teste_ebook {
     flex-direction: column;
     height: auto;
     width: auto;
+    align-items: center;
+ 
     margin-top: 10rem;
   }
 
@@ -93,4 +95,9 @@
   .btn-cta2 {
     width: auto;
   }
+
+  .ebook img {
+    width: 100%;
+  }
+
 }

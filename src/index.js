@@ -8,12 +8,12 @@ import Footer from './components/Footer/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
+  <>
   <Header/>
   <SobreMim/>
   <Ebook />
 
-  </div>
+  </>
 );
 
 

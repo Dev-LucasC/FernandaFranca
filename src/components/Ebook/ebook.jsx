@@ -6,7 +6,7 @@ const ebook = () => {
   return (
     <section>
       <main>
-        <div className='container_ebook'>
+        <div className='teste_ebook'>
           <div className='ebook'>
             <img src={Ebook} alt="" />
           </div>
