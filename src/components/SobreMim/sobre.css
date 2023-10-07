@@ -45,7 +45,7 @@
 }
 
 .container-img img {
- 
+  margin-bottom: -220px;
 }
 
 .btn-cta {
@@ -76,6 +76,15 @@
     margin: inherit;
     width: auto;
     height: auto;
+  }
+
+  .container_sobremim p {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .container_sobremim h1 {
+    font-size: 40px;
   }
 
   .container-img {
