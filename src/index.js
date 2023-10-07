@@ -12,7 +12,7 @@ root.render(
   <Header/>
   <SobreMim/>
   <Ebook />
-
+  <Footer/>
   </>
 );
 
