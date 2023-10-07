@@ -3,9 +3,10 @@
 
   justify-content: center;
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   background-color: #000000;
-  padding-top: 96px;
+
+
 }
 
 .container_sobremim {
@@ -16,7 +17,7 @@
   background-color: #ffffff;
   width: 652px;
   height: 451px;
-  margin: 0rem 10rem;
+  margin: 10rem 10rem;
 }
 
 .container_sobremim h1 {
@@ -44,6 +45,7 @@
 .container-img {
   display: flex;
   align-items: center;
+  margin-top: 220px;
 }
 
 .container-img img {
